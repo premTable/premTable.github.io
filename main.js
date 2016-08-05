@@ -2,7 +2,7 @@ function loadTable(){
 
 $.ajax({
 headers: { 'X-Auth-Token': 'a0a6c9a4443e46f680b1fe4c3f5f0bb6' },
-  url: 'https://api.football-data.org/v1/soccerseasons/426/leagueTable',
+  url: 'http://api.football-data.org/v1/soccerseasons/426/leagueTable',
   dataType: 'JSON',
   type: 'GET',
 
